@@ -1,0 +1,22 @@
+{
+  "name": "o2relax/meta-sistem",
+  "type": "project",
+  "description": "",
+  "keywords": [
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "phpunit/phpunit": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
